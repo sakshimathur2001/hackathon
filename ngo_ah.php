@@ -1,6 +1,6 @@
 <?php
     $title='Sector Page';
-    require_once 'includes\header.php'; 
+    require __DIR__ .'/includes/header.php'; 
     require_once 'db/conn.php';
 
     $results= $crud->getNgoah();
@@ -21,4 +21,4 @@
     </tr>
 </table>
 
-<?php require_once 'includes\footer.php'; ?>    
+<?php require __DIR__ .'/includes/footer.php'; ?>    

@@ -6,4 +6,4 @@
 ?>
 <h1>Hello, Home Page!</h1>
 <a href="sector.php">SECTOR</a>
-<?php include('includes\footer.php'); ?>    
+<?php require __DIR__ .'/includes/footer.php'; ?>    

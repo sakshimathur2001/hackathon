@@ -1,6 +1,6 @@
 <?php
     $title='Sector Page';
-    include('includes\header.php'); 
+    require __DIR__ .'/includes/header.php';
     include('db/conn.php');
 
     $results= $crud->getNGOenv();
@@ -21,4 +21,4 @@
     </tr>
 </table>
 
-<?php include('includes\footer.php'); ?>    
+<?php require __DIR__ .'/includes/footer.php'; ?>    
