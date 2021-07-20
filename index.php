@@ -1,5 +1,6 @@
 <?php
     $title='Index';
+    require __DIR__ ."includes\header.php";
     include('includes\header.php'); 
     include('db/conn.php');
 ?>
