@@ -1,7 +1,7 @@
 <?php
     $title='Index';
-    require __DIR__ ."includes\header.php";
-    include('includes\header.php'); 
+    require __DIR__ .'\includes\header.php';
+    //include('includes\header.php'); 
     include('db/conn.php');
 ?>
 <h1>Hello, Home Page!</h1>
