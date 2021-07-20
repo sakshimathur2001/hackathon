@@ -7,11 +7,13 @@
 ?>
 
 <h1>Aged and Elderly</h1>
-
-<table class="table">
+<table class="table table-striped">
+    <thead>
     <tr>
         <th>NGO Name</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <?php while($r= $results->fetch(PDO::FETCH_ASSOC)) { ?>
             <tr>
@@ -19,6 +21,7 @@
             </tr>
         <?php }?> 
     </tr>
+    </tbody>
 </table>
 
 <?php require __DIR__ .'/includes/footer.php'; ?>    
