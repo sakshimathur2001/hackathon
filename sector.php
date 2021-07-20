@@ -1,7 +1,7 @@
 <?php
     $title='Sector Page';
-    require_once 'includes\header.php'; 
-    require_once 'db/conn.php';
+    include('includes\header.php'); 
+    include('db/conn.php');
 ?>
 <div class="sector_top">
    <h1 class="display-1">Sectors</h1>
@@ -71,4 +71,4 @@
 
     
 
-<?php require_once 'includes\footer.php'; ?>  
+<?php include('includes\footer.php'); ?>  
