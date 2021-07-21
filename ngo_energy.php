@@ -6,19 +6,19 @@
     $results= $crud->getNgoenergy();
 ?>
 
-<h1>New and Renewable Energy</h1>
+<h1 class="display-5">New and Renewable Energy</h1>
 
 <table class="table table-striped">
     <thead>
     <tr>
-        <th>NGO Name</th>
+        <th style="background: #03989e;">NGO Name</th>
     </tr>
     </thead>
     <tbody>
     <tr>
         <?php while($r= $results->fetch(PDO::FETCH_ASSOC)) { ?>
             <tr>
-                <td><a href="<?php echo $r['link']?>"><?php echo $r['name'] ?></td></a>
+                <td><a href="<?php echo $r['link']?>" class="text-muted"><?php echo $r['name'] ?></td></a>
             </tr>
         <?php }?> 
     </tr>

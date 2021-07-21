@@ -6,19 +6,19 @@
     $results= $crud->getNgochild();
 ?>
 
-<h1>Children</h1>
+<h1 class="display-5">Children</h1>
 
 <table class="table table-striped">
     <thead>
     <tr>
-        <th scope="col">NGO Name</th>
+        <th style="background: #03989e;">NGO Name</th>
     </tr>
     </thead>
     <tbody>
     <tr>
         <?php while($r= $results->fetch(PDO::FETCH_ASSOC)) { ?>
             <tr>
-                <td scope="row"><a href="<?php echo $r['link']?>"><?php echo $r['name'] ?></td></a>
+                <td ><a href="<?php echo $r['link']?>" class="text-muted"><?php echo $r['name'] ?></td></a>
             </tr>
         <?php }?> 
     </tr>
