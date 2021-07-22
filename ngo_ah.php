@@ -6,23 +6,21 @@
     $results= $crud->getNgoah();
 ?>
 
-<h1 class="display-5">Animal Husbandry, Dairying and Fisheries</h1>
-
-<table class="table table-striped">
-    <thead>
-    <tr>
-        <th style="background: #03989e;">NGO Name</th>
-    </tr>
-    </thead>
+<h1 class="display-5 ngo_sectorname">Animal Husbandry, Dairying and Fisheries</h1>
+<h4>List of NGOs</h4>
+<div class="ngo_tablediv">
+<table class="table table-bordered">
     <tbody>
     <tr>
         <?php while($r= $results->fetch(PDO::FETCH_ASSOC)) { ?>
             <tr>
-                <td><a href="<?php echo $r['link']?>" class="text-muted"><?php echo $r['name'] ?></td></a>
+                <td><a href="<?php echo $r['link']?>" class="text-muted ngo_donate"><?php echo $r['name'] ?></a></td>
+                <td><a href="sector.php" class="btn btn-secondary">Donate Here!</a></td>
             </tr>
+            
         <?php }?> 
     </tr>
     </tbody>
 </table>
-
+</div>
 <?php require __DIR__ .'/includes/footer.php'; ?>    

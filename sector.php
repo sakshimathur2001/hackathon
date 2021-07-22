@@ -17,8 +17,8 @@
         <div><a class="text" href="ngo_env.php">Enviornment</a></div>
         </div>
     </div>
-    <div class="container column">
-    <img src="images/women.png" alt="Women's Development and Empowerement" class="image">
+    <div class="container column"> 
+        <img src="images/women.png" alt="Women's Delopment and Empowerement" class="image">
         <div class="overlay">
         <div><a class="text" href="ngo_wd.php">Women's Development and Empowerement</a></div>
         </div>

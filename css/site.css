@@ -1,7 +1,6 @@
 .sector_top{
     
   margin: 50px;
-  
 
 }
 .sector_middle{
@@ -20,6 +19,7 @@
 .image {
   display: block;
   width: 50%;
+  /*height: auto;*/
   height: auto;
 }
 
@@ -30,7 +30,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  width: 50%;
+  width: 55%;
   opacity: 0;
   transition: .5s ease;
   background-color: #03989e;
@@ -41,7 +41,8 @@
   opacity: 1;
 }
 .rowheight{
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+  
 }
 .text {
   color: white;
@@ -53,10 +54,38 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  
 }
-
+.ngo_sectorname
+{
+  margin-bottom: 30px;
+}
+.ngo_tablediv{
+  padding: 2%;
+}
 body
 {
 font-family: 'Open Sans', sans-serif;
 background-color: #EEEEEE;
+
+}
+@media only screen and (max-device-width: 700px) {
+  .container{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .rowheight{
+    margin-bottom: 0px;
+  }
+  .image
+  {
+    width: 70%;
+  }
+  .overlay{
+    width: 70%;
+  }
+  .navlogo
+  {
+    visibility: hidden;
+  }
 }
