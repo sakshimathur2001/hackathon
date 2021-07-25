@@ -6,16 +6,14 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/site.css" />
 <title>NGO- <?php echo $title ?></title>
-</head>
-  <body style="background: url(images/wallpaperGrey.png);">
-      <?php 
-        require __DIR__.'/includes/navbar.php';
-      ?>
+<body style="background: url(images/wallpaperGrey.png);">
+<?php require __DIR__ .'/includes/navbar.php'; ?>
 <div class="sector_top">
-   <h1 class="display-1">Sectors</h1>
+   <h1 style="color:#03989e; font-size:30px;">Sectors</h1>
 </div>
+<img src="images/sectorPic5.png" style="width: 80%;">
 <div class="sector_middle">
-    <h2>Choose the sector you would like to donate to </h2>
+    <h2 style="color:#03989e; font-size:30px;">Choose the sector you would like to donate to </h2>
 </div>
 <div class="sector_list">
     <div class="row rowheight">

@@ -10,8 +10,13 @@
     <link rel="stylesheet" href="css/css_t/sectorReport.css">
    
   </head>
+  <header style="text-align: left;">
+	<?php 
+        require __DIR__.'/includes/navv.php';
+      ?>
+	  </header>
 <body>
-<?php require __DIR__.'/includes/navbar.php';?>
+
 <h1 class="text-center ">Monthly Report</h1>
 
 
@@ -34,18 +39,18 @@
  <div class="row-archive">
   <div class="column-archive">
   	<a  href="images/monthlyReport.pdf">
-    <img src="images/march.png" alt="June Report" class="image" style="width:100%" ></a>
+    <img src="images/march.png" alt="June Report" class="image" style="width:100%; " ></a>
         </div>
 
   <div class="column-archive">
   	<a  href="images/monthlyReport.pdf">
-    <img src="images/april.png" alt="June Report" class="image" style="width:100%" >
+    <img src="images/april.png" alt="June Report" class="image" style="width:100%;" >
 </a>
         </div>
 
    <div class="column-archive">
   	<a  href="images/monthlyReport.pdf">
-    <img src="images/may.png" alt="June Report" class="image" style="width:100%" >
+    <img src="images/may.png" alt="June Report" class="image" style="width:100%;" >
 </a>
         </div>
         <?php require __DIR__ .'/includes/footer.php'; ?>  

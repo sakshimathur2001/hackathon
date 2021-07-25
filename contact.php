@@ -35,22 +35,24 @@
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
 </head>
-
+<header style="text-align: left;">
+	<?php 
+        require __DIR__.'/includes/navv.php';
+      ?>
+	  </header>
 <body style="background: url(images/wallpaperGrey.png);">
 
 
 
   <!-- Contact Form -->
-  <?php 
-        require __DIR__.'/includes/navv.php';
-      ?>
+  
 
       <div class="c-form-container section-container section-container-image-bg">
         <div class="container">
 
           <div class="row">
             <div class="col-sm-8 col-sm-offset-2 c-form section-description wow fadeIn">
-              <h1>TALK TO US</h1>
+              <h1 style="color:#03989e; font-size:30px; font-weight:400">Talk to Us</h1>
 
             </div>
           </div>

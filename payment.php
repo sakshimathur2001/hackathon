@@ -30,11 +30,13 @@
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 		
     </head>
-
-    <body style="background: url(images/wallpaperGrey.png);">
+	<header style="text-align: left;">
 	<?php 
         require __DIR__.'/includes/navv.php';
       ?>
+	  </header>
+    <body style="background: url(images/wallpaperGrey.png);">
+	
 		<!-- Contact Form -->
 		<div class="c-form-container section-container section-container-image-bg">
 	        <div class="container">
@@ -114,10 +116,6 @@
 			  </div>
 		</br>
 		</br>			 
-<div style="margin: 0;">
-	<?php require __DIR__ .'/includes/footer.php'; ?>  
-</div>
-
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>

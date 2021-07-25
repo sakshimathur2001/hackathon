@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php"><img src="images/navbarlogo.gif" class="navlogo" width="70" height="40"></a>
+    <a class="navbar-brand" href="index.php"><img src="images/navbarlogo.gif" class="navlogo" width="90" height="40"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,6 +10,7 @@
         <a class="nav-link" href="sector.php">Sectors</a>
         <a class="nav-link" href="contact.php">Contact Us</a>
         <a class="nav-link" href="aboutus.php">About Us</a>
+        <a class="nav-link" href="report.php">Monthly Report </a>
       </div>
     </div>
   </div>

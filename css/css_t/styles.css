@@ -1,9 +1,8 @@
-<FOR HOMEPAGE>
   
 body {
   font-size: 16px;
   color: #fff;
-  background:url('../images/wallpaper.png');
+  background:url('images/wallpaper.png');
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -16,7 +15,7 @@ body {
 }
 
 #logo-img {
-  background: url('../Downloads/cloud.png') no-repeat;
+  background: url('images/cloud.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -248,14 +247,14 @@ body {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1{ /* Restaurant name */
     padding-top: 5px;
     font-size: 6vw;
   }
   /* End Header */
   
   
-  .col-xxs-12 {
+ .col-xxs-12 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -264,4 +263,3 @@ body {
     width: 100%;
   }
 }
-
