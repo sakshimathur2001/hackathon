@@ -21,9 +21,9 @@
 <div class="sector_list">
     <div class="row rowheight">
     <div class="container column">
-        <img src="images/enviornment.png" alt="Enviornment" class="image">
+        <img src="images/enviornment.png" alt="Environment" class="image">
         <div class="overlay">
-        <div><a class="text" href="ngo_env.php">Enviornment</a></div>
+        <div><a class="text" href="ngo_env.php">Environment</a></div>
         </div>
     </div>
     <div class="container column"> 

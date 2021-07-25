@@ -13,7 +13,7 @@
       <?php 
         require __DIR__.'/includes/navbar.php';
       ?>
-<h1 style="color:#03989e; font-size:30px;">Enviorment</h1>
+<h1 style="color:#03989e; font-size:30px;">Environment</h1>
 
 <h4 style="color:#03989e; font-size:20px;">List of NGOs</h4>
 <div class="ngo_tablediv">
