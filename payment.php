@@ -97,14 +97,14 @@
 	                </div>
 	            </div>
 
-              <div class="row">
+              <div class="row" style="text-align: center; padding-left:30%; padding-right:30%">
                 <div class="col-sm-6 c-form-info-box wow fadeInUp">
-                  <div class="c-form-info-box-icon">
+                  <div class="c-form-info-box-icon" >
                     <a href="https://www.paypal.com/in/home"><i class="fab fa-paypal"></i></a>
                   </div>
 
                 </div>
-                <div class="col-sm-3 c-form-info-box wow fadeInDown">
+                <div class="col-sm-6 c-form-info-box wow fadeInDown">
                   <div class="c-form-info-box-icon">
                     <a href="https://pay.google.com/"><i class="fab fa-google-pay"></i></a>
                   </div>
