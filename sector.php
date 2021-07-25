@@ -11,6 +11,9 @@
 <div class="sector_top">
    <h1 style="color:#03989e; font-size:30px;">Sectors</h1>
 </div>
+<div style="background-color: #03989e; text-align:center; color:white;">
+    <p style="padding: 2%;">Hello!</br> We have used real NGO names to give you the feel of an actual working website so please don't contact them.</br></p>
+</div>
 <img src="images/sectorPic5.png" style="width: 80%;">
 <div class="sector_middle">
     <h2 style="color:#03989e; font-size:30px;">Choose the sector you would like to donate to </h2>
