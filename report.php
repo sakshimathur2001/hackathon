@@ -12,7 +12,7 @@
   </head>
   <header style="text-align: left;">
 	<?php 
-        require __DIR__.'/includes/navv.php';
+        require __DIR__.'/includes/navbar.php';
       ?>
 	  </header>
 <body>
