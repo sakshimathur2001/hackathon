@@ -1,0 +1,98 @@
+body
+{
+	background:url('../Downloads/wallpaperGrey.png');
+}
+
+h1
+{
+	 color:#03989e;
+	 font-size:30px;
+}
+
+.carousel img
+{
+	width:50%;
+	height:auto;
+	margin:auto;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #03989e;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.column-archive {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row-archive::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container-archive {
+  position: relative;
+  width: auto;
+}
+
+.container-archive:hover .overlay {
+  opacity: 1;
+}
+
+
+.overlay-archive {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #03989e;
+  
+}

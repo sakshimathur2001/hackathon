@@ -8,8 +8,8 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link" href="sector.php">Sectors</a>
-        <a class="nav-link" href="#">Contact Us</a>
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="contact.php">Contact Us</a>
+        <a class="nav-link" href="aboutus.php">About Us</a>
       </div>
     </div>
   </div>

@@ -1,0 +1,153 @@
+body {
+  font-size: 16px;
+  color: #fff;
+
+  font-family: 'Helvetica', sans-serif;
+  border-radius: 0;
+  border: 0;
+  padding:0;
+  margin:0;
+ background-color:  #03989e;
+ background:url('../Downloads/wallpaper.png');
+}
+h1
+{
+   color:#03989e;
+   font-size:30px;
+}
+
+
+h2
+{
+  color:black;
+  margin-top:-15px;
+
+}
+
+
+
+  
+}
+
+
+.main-container
+{
+  position:relative;
+
+
+ 
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  h1{
+    
+    font-size: 100px;
+   
+  }
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  h1{
+    font-size: :20px;
+  }
+  
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  h1{
+    font-size: :50px;
+  }
+
+}
+
+.TarImage
+{
+  width:100%;
+
+}
+
+
+.SakshiImage
+{
+  width:100%;
+
+}
+#box
+{
+
+  color:black;
+  font-family: :sans-serif;
+
+
+
+
+}
+
+
+
+#Tarini
+{
+  position:relative;
+  text-align:center;
+  padding:10px 10px 10px 10px;
+
+  margin-top:15px;
+  margin-bottom:15px;
+
+ 
+
+ 
+
+
+}
+
+#Sakshi
+{
+  position:relative;
+  text-align:center;
+  padding:10px 10px 10px 10px;
+ 
+  margin-top:15px;
+  margin-bottom:15px;
+
+    
+
+
+}
+
+#Yash
+{
+  position:relative;
+  text-align:center;
+  padding:10px 10px 10px 10px;
+  
+  margin-top:15px;
+  margin-bottom:15px;
+
+   
+
+
+}
+
+.goals
+{
+  float:left;
+  width:50%;
+}
+
+.img1
+{
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+

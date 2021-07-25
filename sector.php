@@ -3,6 +3,14 @@
     require __DIR__ .'/includes/header.php';
     include('db/conn.php');
 ?>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css" />
+<title>NGO- <?php echo $title ?></title>
+</head>
+  <body style="background: url(images/wallpaperGrey.png);">
+      <?php 
+        require __DIR__.'/includes/navbar.php';
+      ?>
 <div class="sector_top">
    <h1 class="display-1">Sectors</h1>
 </div>
