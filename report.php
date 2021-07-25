@@ -15,7 +15,7 @@
         require __DIR__.'/includes/navbar.php';
       ?>
 	  </header>
-<body>
+<body style="background-image: url(images/wallpaperGrey.png);">
 
 <h1 class="text-center ">Monthly Report</h1>
 
