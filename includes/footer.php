@@ -24,7 +24,7 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
         </section>
         <section id="address" class="col-sm-4" style="color: white;">
           <span>Address:</span><br><br>
-          <p>Via Po 10<br>10136 Turin IT</p>
+          <p style="color: white;">Via Po 10<br>10136 Turin IT</p>
           <br>
 
           <!-- <hr class="visible-xs"> -->
